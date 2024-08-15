@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "title": "Doglapan",
+      "author": "Ashneer Grover",
+      "price": 281,
+      "img": "https://res.cloudinary.com/dywhcxdix/image/upload/v1723635614/vky0jo8aqp4pn42dqyaz.webp",
+      "amount": 1,
+      "description": "A candid account of the rise and fall of BharatPe's co-founder Ashneer Grover."
+    },
+    {
+      "id": 2,
+      "title": "Before the Coffee Gets Cold",
+      "author": "Toshikazu Kawaguchi",
+      "price": 373,
+      "img": "https://res.cloudinary.com/dywhcxdix/image/upload/v1723635706/hbwer1pgxfdzfbggqwwu.jpg",
+      "amount": 1,
+      "description": "A heartwarming tale of time travel and human connection in a small Tokyo café."
+    },
+    {
+      "id": 3,
+      "title": "Sweet Bean Paste",
+      "author": "Durian Sukegawa",
+      "price": 389,
+      "img": "https://m.media-amazon.com/images/I/41I0q4sf5OL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "amount": 1,
+      "description": "A touching story of friendship and redemption centered around a small dorayaki shop."
+    },
+    {
+      "id": 4,
+      "title": "Heaven",
+      "author": "Mieko Kawakami",
+      "price": 310,
+      "img": "https://m.media-amazon.com/images/I/41f6JRaPBSL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "amount": 1,
+      "description": "An intense exploration of bullying and the power of human connection."
+    },
+    {
+      "id": 5,
+      "title": "Breasts and Eggs",
+      "author": "Mieko Kawakami",
+      "price": 407,
+      "img": "https://m.media-amazon.com/images/I/41NqOwacUcS._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "amount": 1,
+      "description": "A bold exploration of womanhood, motherhood, and the choices we make."
+    },
+    {
+      "id": 6,
+      "title": "Vegetarian, The",
+      "author": "Han Kang",
+      "price": 329,
+      "img": "https://m.media-amazon.com/images/I/51vhZVieAuL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "amount": 1,
+      "description": "A dark and surreal tale of rebellion and the human psyche."
+    },
+    {
+      "id": 7,
+      "title": "The Argonauts",
+      "author": "Maggie Nelson",
+      "price": 1174,
+      "img": "https://res.cloudinary.com/dywhcxdix/image/upload/v1723636414/xvex8ihnsxohxeqxtgjk.jpg",
+      "amount": 1,
+      "description": "A genre-defying memoir that explores themes of gender, love, and family."
+    },
+    {
+      "id": 8,
+      "title": "Cleopatra and Frankenstein",
+      "author": "Coco Mellors",
+      "price": 268,
+      "img": "https://res.cloudinary.com/dywhcxdix/image/upload/v1723636479/hdbn9wd7yhohylka2g0o.jpg",
+      "amount": 1,
+      "description": "A sharp and poignant look at love, marriage, and identity in New York City."
+    },
+    {
+      "id": 9,
+      "title": "Everything I Know About Love",
+      "author": "Dolly Alderton",
+      "price": 499,
+      "img": "https://th.bing.com/th/id/OIP.hdkLne7iyy-FFnPxgcyt8gHaLZ?pid=ImgDet&rs=1",
+      "amount": 1,
+      "description": "A hilarious and heartfelt memoir about growing up and learning about love."
+    },
+    {
+      "id": 10,
+      "title": "Someone Who Will Love You in All Your Damaged Glory",
+      "author": "Raphael Bob-Waksberg",
+      "price": 795,
+      "img": "https://m.media-amazon.com/images/I/418gfMc4adL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "amount": 1,
+      "description": "A collection of short stories exploring the complexities of love and relationships."
+    },
+    {
+      "id": 11,
+      "title": "My Year of Rest and Relaxation",
+      "author": "Ottessa Moshfegh",
+      "price": 449,
+      "img": "https://m.media-amazon.com/images/I/51GAFkml+FL._SY344_BO1,204,203,200_.jpg",
+      "amount": 1,
+      "description": "A darkly comic novel about a woman's quest to sleep away her life."
+    },
+    {
+      "id": 12,
+      "title": "Bluets",
+      "author": "Maggie Nelson",
+      "price": 1174,
+      "img": "https://m.media-amazon.com/images/I/311wFsRGi8L._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "amount": 1,
+      "description": "A lyrical exploration of love, loss, and the color blue."
+    }
+  ]
+  
