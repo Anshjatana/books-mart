@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { useStore } from "../useStore";
 import Link from "next/link";
 
+
 const Cart = () => {
   let { cart, totalPrice, incrementItem, decrementItem, removeFromCart } =
     useStore();
@@ -14,7 +15,7 @@ const Cart = () => {
 
   return (
     <div className="p-6 mt-16 flex flex-col items-center justify-center">
-      <p className="text-4xl text-white my-4 uppercase font-bold">Cart</p>
+      <p className="text-4xl text-white my-4 uppercase font-bold">Cart </p>
       {cart?.map((item) => (
         <div
           key={item.id}
@@ -27,7 +28,7 @@ const Cart = () => {
           />
           <div className="flex flex-col text-center lg:text-left flex-grow md:pl-6">
             <p className="text-lg text-black font-semibold">{item.title}</p>
-            <p className="text-sm text-gray-600">By: {item.author}</p>
+            <p className="text-sm text-[darkcyan]">By: {item.author}</p>
             <p className="text-md font-medium text-gray-800 mt-2">
               Rs. {item.price}
             </p>
