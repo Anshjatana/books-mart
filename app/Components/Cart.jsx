@@ -1,9 +1,11 @@
 "use client";
 import React, { useState } from "react";
 import { useStore } from "../useStore";
+import Link from "next/link";
 
 const Cart = () => {
-  let { cart, totalPrice, incrementItem, decrementItem, removeFromCart } = useStore();
+  let { cart, totalPrice, incrementItem, decrementItem, removeFromCart } =
+    useStore();
   const [applyDiscount, setApplyDiscount] = useState(false);
 
   const handleApplyDiscount = () => {
@@ -55,7 +57,6 @@ const Cart = () => {
           </div>
         </div>
       ))}
-
       {cart.length !== 0 ? (
         <>
           <div className="flex items-center mt-4 bg-white px-2 py-3 rounded-lg justify-center">
@@ -85,7 +86,15 @@ const Cart = () => {
           </button>
         </>
       ) : (
-        <div className="mt-8 text-2xl text-white">Cart is Empty :(</div>
+        <>
+          <div className="mt-8 text-2xl text-white">Cart is Empty :(</div>
+
+          <Link href={"/"}>
+            <button className="mt-4 px-5 py-3 bg-[#e98426] text-black font-semibold rounded-lg">
+              Back to store
+            </button>
+          </Link>
+        </>
       )}
     </div>
   );

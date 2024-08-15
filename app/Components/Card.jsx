@@ -16,12 +16,12 @@ const Card = ({ item }) => {
 
   return (
     <div className='m-[20px] p-[20px] w-[285px] bg-[#f9f9f9] rounded-[10px] flex flex-col justify-between items-center'>
-      <Image src={img} alt={title} width={1689} height={2560} className='w-[150px] h-[250px] rounded-lg ' />
+      <Image priority src={img} alt={title} width={1689} height={2560} className='w-[150px] h-[250px] rounded-lg ' />
       <div className='flex flex-col text-black justify-center items-center'>
         <p className='text-[20px] text-center font-semibold mt-[10px]'>{title}</p>
         <p className='text-center text-sm mt-[10px] mb-[20px]'>{description}</p>
         <p className='font-medium text-center mx-0 my-[10px]'>By: {author}</p>
-        <p className='font-medium text-center mx-0 my-2'>Rs.{price}</p>
+        <p className='font-medium text-lg text-center mx-0 my-2'>Rs.{price}</p>
 
         <button
           className={`${
