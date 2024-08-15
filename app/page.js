@@ -1,13 +1,12 @@
 'use client';
 import React from "react";
-import Navbar from "./components/Navbar";
-import Main from "./components/Main";
-import Cart from "./components/Cart";
+import Navbar from "./Components/Navbar";
+import Main from "./Components/Main";
 import './globals.css'
 import { useStore } from "./useStore";
 
 const Home = () => {
-  const { cart, warning, show, addToCart, toggleShow } = useStore();
+  const { cart, warning, addToCart, toggleShow } = useStore();
 
   return (
     <div>
