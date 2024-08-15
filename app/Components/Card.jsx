@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { CheckCircle, ShoppingBag } from 'lucide-react';
 import { useStore } from '../useStore';
+import Link from 'next/link';
 
 const Card = ({ item }) => {
   const { id, img, title, author, price, description } = item;
@@ -23,25 +24,24 @@ const Card = ({ item }) => {
         <p className='font-medium text-center text-[darkcyan] mx-0 my-[10px]'>By: {author}</p>
         <p className='font-medium text-lg text-center mx-0 my-2'>Rs.{price}</p>
 
-        <button
-          className={`${
-            isAdded ? 'bg-green-500 cursor-not-allowed' : 'bg-black'
-          } border-none p-[10px] text-white font-semibold hover:bg-slate-900 transform transition-transform hover:scale-105 cursor-pointer rounded-[5px] flex items-center justify-center`}
-          onClick={handleAddToCart}
-          disabled={isAdded}
-        >
-          {isAdded ? (
-            <>
+        {isAdded ? (
+          <Link href={'/cart'}>
+            <button
+              className='bg-green-500 hover:bg-green-600 border-none p-[10px] text-white font-semibold cursor-pointer rounded-[5px] flex items-center justify-center transform transition-transform hover:scale-105'
+            >
               <CheckCircle className='mr-[5px]' />
-              Added to Cart
-            </>
-          ) : (
-            <>
-            <ShoppingBag className='mr-[5px]'/>
-              Add to Cart
-            </>
-          )}
-        </button>
+              Go to Cart
+            </button>
+          </Link>
+        ) : (
+          <button
+            className='bg-black hover:bg-slate-900 border-none p-[10px] text-white font-semibold cursor-pointer rounded-[5px] flex items-center justify-center transform transition-transform hover:scale-105'
+            onClick={handleAddToCart}
+          >
+            <ShoppingBag className='mr-[5px]' />
+            Add to Cart
+          </button>
+        )}
       </div>
     </div>
   );

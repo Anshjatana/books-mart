@@ -2,14 +2,9 @@
 import React from "react";
 import { ShoppingCart } from "lucide-react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 const Navbar = ({ size, setShow }) => {
-  const router = useRouter();
 
-  const GoToHome = () => {
-    router.push("/");
-  };
   return (
     <nav>
       <div className="flex items-center justify-between text-white bg-[darkcyan] px-4 py-4 fixed top-0 left-0 w-full z-50">
